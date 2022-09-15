@@ -1,0 +1,685 @@
+html,
+body {
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    height: 100%;
+    background-image: url(/Clase_8/Ejercicio/IMG/IMG_2.webp);
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 2;
+}
+
+body::-webkit-scrollbar {
+    -webkit-appearance: none;
+}
+
+body::-webkit-scrollbar:vertical {
+    width: 5px;
+}
+
+footer {
+    width: 100%;
+    background-image: url(/Clase_8/Ejercicio/IMG/IMG_3.jpg);
+    background-color: #ffe7c1;
+    overflow: hidden;
+    box-shadow: 0px 0px 15px 1px rgb(10, 10, 10);
+    height: 12%;
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+    animation-name: footer;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1);
+}
+
+@keyframes footer {
+    0% {
+        transform: translateY(-20vh);
+    }
+
+    100% {
+        transform: translateY(0vh);
+    }
+
+}
+
+
+.cartel {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.47);
+    animation-name: CARTEL;
+    animation-duration: 500ms;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    animation-timing-function: cubic-bezier(0.455, 0.03, 0.515, 0.955);
+    opacity: 0;
+
+}
+
+@keyframes CARTEL {
+    0% {
+        scale: 0.001;
+        opacity: 0%;
+
+    }
+
+    100% {
+        scale: 1;
+        opacity: 100%;
+
+    }
+
+}
+
+@font-face {
+    font-family: font_1;
+    src: url(/Clase_8/Ejercicio/Fonts/font_1.ttf);
+}
+
+h1 {
+    font-family: font_1;
+    color: rgb(255, 255, 255);
+    position: relative;
+    text-shadow: 1px 1px 2px black;
+    scale: 2;
+    animation: texto 1s 1.5s ease forwards, textoA 5s 3s ease-in-out infinite alternate;
+    opacity: 0%;
+
+}
+
+@keyframes texto {
+    0% {
+        top: -50vh;
+        overflow: visible;
+        opacity: 100%;
+    }
+
+    100% {
+
+        top: 5%;
+        overflow: visible;
+        opacity: 100%;
+    }
+}
+
+@keyframes textoA {
+    0% {
+        color: aliceblue;
+    }
+
+    20% {
+        color: brown;
+    }
+
+    40% {
+        color: blue;
+    }
+
+    60% {
+        color: coral;
+    }
+
+    80% {
+        color: blueviolet;
+
+    }
+
+    100% {
+        color: chartreuse;
+    }
+}
+
+
+
+.personas {
+
+    width: auto;
+    height: 45%;
+
+}
+
+.img_1 {
+    position: fixed;
+    margin-left: 3%;
+    margin-top: 3%;
+
+}
+
+.contenedor {
+    width: 100%;
+    display: flex;
+   position: relative;
+    opacity: 0%;
+    animation: caja 1s 3s forwards ease;
+    overflow-y: scroll;
+    
+}
+
+form {
+    width: 81%;
+    background-color: rgba(0, 136, 255, 0.407);
+    padding-bottom: 5%;
+
+    border-right: groove rgba(29, 2, 234, 0.515) 5px;
+}
+
+
+.aside {
+    width: 19%;
+    height: 200vh;
+}
+
+
+
+
+@keyframes caja {
+    0% {
+        top: -50vh;
+
+        opacity: 0%;
+    }
+
+    100% {
+        top: 0%;
+
+        opacity: 100%;
+    }
+}
+
+@font-face {
+    font-family: font_2;
+    src: url(/Clase_8/Ejercicio/Fonts/font_2.ttf);
+}
+
+h2 {
+    text-align: center;
+    margin: 0% 1vh;
+    padding: 1%;
+    margin-top: 2vh;
+    background-color: rgba(0, 136, 255, 0.795);
+    border-radius: 0vh;
+    border: rgb(51, 0, 255) solid 10px;
+    font-family: font_2;
+    font-size: 5vh;
+    color: rgb(255, 255, 255);
+}
+
+#nombre {
+    margin-top: 20px;
+    width: 85%;
+    padding-left: 10%;
+    opacity: 90%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.selector {
+    display: flex;
+    height: 8%;
+    width: 76%;
+    margin-top: 20px;
+    margin-left: 10%;
+    opacity: 90%;
+    margin-bottom: 0%;
+
+}
+
+.icono {
+    background-color: #cdd3d8;
+    width: 4.4vh;
+    height: 7vh;
+    border-top-left-radius: 10%;
+    border-right: #5a5a5aa1 1px solid;
+    border-bottom-left-radius: 10%;
+}
+
+#seleccion {
+    flex-basis: 95%;
+    opacity: 80%;
+    width: 100%;
+    margin-bottom: 0vh;
+    height: 7vh;
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular';
+}
+
+
+#comentarios {
+    margin-bottom: 5px;
+    margin-top: -6vh;
+    width: 85%;
+    padding-left: 10%;
+    opacity: 80%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#comentarios_1 {
+
+    margin-top: 4vh;
+    width: 85%;
+    padding-left: 10%;
+    opacity: 80%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+::placeholder {
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular';
+}
+
+#letras {
+    width: 85%;
+    height: 5vh;
+    padding-left: 10%;
+    position: relative;
+    opacity: 90%;
+    margin-top: 0%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+#letras_1 {
+    width: 85%;
+    height: auto;
+    padding-left: 10%;
+    position: relative;
+    display: grid;
+    grid-template-columns: 10% auto 90%;
+    grid-template-rows: auto auto 0%;
+    opacity: 90%;
+    margin-top: 2%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#letras_2 {
+    width: 85%;
+    height: auto;
+    padding-left: 10%;
+    position: relative;
+    text-align: center;
+    grid-template-columns: 5% auto 90%;
+    grid-template-rows: auto auto 0%;
+    opacity: 90%;
+    margin-top: 2%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+#c2 {
+    grid-column: 1/4;
+}
+
+#c3 {
+    grid-column: 3/4;
+}
+
+#outvol {
+
+    font-size: large;
+    margin-top: -32%;
+    line-height: 4vh;
+    height: 4vh;
+
+    color: #ffffff;
+    padding: auto;
+    font-weight: 500;
+    background-color: #cdd3d8;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.input-group-text {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    justify-content: center;
+    font-weight: 500;
+}
+
+.caja_2 {
+    position: relative;
+    top: 8%;
+    height: fit-content;
+
+
+}
+
+.titulo_2 {
+    text-align: center;
+    margin: 0% 1vh;
+    padding: 1%;
+    margin-top: 5vh;
+    background-color: rgba(0, 136, 255, 0.795);
+    border-radius: 0vh;
+    border: rgb(51, 0, 255) solid 10px;
+    font-family: font_2;
+    font-size: 5vh;
+    color: rgb(255, 255, 255);
+
+}
+
+
+.slidecontainer {
+    width: 100%;
+}
+
+.slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 4vh;
+    background: #ffffff;
+    outline: none;
+    display: inline-block;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+.slider:hover {
+    opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    background: #04AA6D;
+    cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    background: #000000;
+    cursor: pointer;
+}
+
+input [ type="range"]::after {
+    content: attr(value);
+}
+
+.check {
+    flex-direction: row;
+    margin-left: -10%;
+    width: 75%;
+    margin: 2% auto;
+    padding: 0vh;
+    transform: translateX(-3.5%);
+}
+
+
+
+.form-check-label {
+    margin: auto;
+
+
+}
+
+.form-check {
+    margin: 1%;
+
+
+}
+
+.box {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 5vh;
+    border-radius: 2%;
+}
+
+.form-check {
+    transition: 1s;
+    text-align: center;
+    background: #04aa6d4f;
+    border-radius: 10%;
+    height: 5vh;
+    line-height: 5vh;
+    margin: 0.5%;
+    margin-right: 0.05%;
+    width: 250vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+
+
+
+
+.form-check:hover {
+    background: #04aa6d;
+    scale: 110%;
+    transform: translateY(-0.5vh);
+}
+
+.form-check-input {
+    position: absolute;
+    margin-top: 1.5vh;
+
+}
+
+.card {
+    position: fixed;
+    margin-top: 5%;
+    z-index: -2;
+    transition: 1s;
+    z-index: 2;
+}
+
+
+
+.p {
+    transition: 500ms;
+    transition-delay: 1s;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    z-index: 2;
+}
+
+.wasap {
+    width: 30px;
+    height: 30px;
+    z-index: 2;
+    margin-left: 5%;
+    position: relative;
+
+}
+
+#wasap {
+    padding: 0%;
+    margin: 0%;
+    height: 5vh;
+    display: flex;
+
+    z-index: 2;
+
+}
+
+.list-group-item {
+    text-align: center;
+}
+
+.cajon {
+
+    width: 50vh;
+    height: 100%;
+    display: flex;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+    z-index: 1;
+}
+
+.p {
+    transition-delay: 1s;
+    transition: 500ms;
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+}
+
+.cajon:hover {
+    width: 100%;
+    height: 100%;
+    background-color: #04AA6D;
+}
+
+.card:hover {
+    animation: card 1s both;
+
+    cursor: text;
+}
+
+@keyframes card {
+    50% {
+        transform: translateX(-3%);
+    }
+
+    100% {
+        transform: scale(110%);
+    }
+
+}
+
+
+.cajon:hover>.p {
+
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.cajon:hover>.p .wasap {
+
+    animation: wasap 250ms 2 alternate ease-in;
+}
+
+@keyframes wasap {
+    to {
+        transform: rotateZ(-80deg);
+
+        scale: 110%;
+        left: 0.5%;
+    }
+}
+
+a {
+    padding: 0%;
+    margin: 0%;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.botones {
+    width: auto;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 15vh;
+    padding: 1%;
+    height: 10vh;
+}
+
+.button_1 {
+    display: inline-block;
+    padding: 1px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4c7caf93;
+    border: none;
+    border-radius: 5px;
+    transition-timing-function: ease-in-out;
+    transition: 500ms;
+    flex-basis: 50%;
+    box-shadow: 0 2px rgba(0, 0, 0, 0.468);
+}
+
+.button_1:hover {
+    background-color: #247ddc;
+    transform: translateY(-4px);
+    box-shadow: 0 5px rgba(0, 0, 0, 0.499);
+
+}
+
+.button_1:active {
+
+    box-shadow: none;
+    transform: translateY(4px);
+}
+
+.card-title {
+    text-align: center;
+
+    font-size: large;
+}
+
+.andres {
+    color: #00000077;
+}
+
+.button_2 {
+    display: inline-block;
+    padding: 1px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #04aa6d75;
+    border: none;
+    border-radius: 5px;
+    transition-timing-function: ease-in-out;
+    transition: 500ms;
+    flex-basis: 50%;
+    box-shadow: 0 2px rgba(0, 0, 0, 0.468);
+}
+
+.button_2:hover {
+    background-color: #04aa6d;
+    transform: translateY(-4px);
+    box-shadow: 0 5px rgba(0, 0, 0, 0.499);
+
+
+}
+
+.button_2:active {
+
+    stroke-linecap: round;
+    transform: translateY(4px);
+    box-shadow: none;
+
+}
+
+h5 {
+    margin: 0%;
+    font-size: medium;
+}
+
+#colegio {
+    margin: 0%;
+    width: 100%;
+    height: 100%;
+}
+
+#uno {
+    margin: 0%;
+    padding: 0%;
+}

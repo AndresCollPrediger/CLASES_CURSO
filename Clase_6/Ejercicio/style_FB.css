@@ -1,0 +1,145 @@
+body,
+html {
+    margin: 0%;
+    padding: 0%;
+    width: auto;
+    height: 100%;
+    border: 5px black solid;
+    background-color: rgba(236, 231, 232, 255);
+
+}
+
+main {
+    background-color: #37474f;
+    width: 90vh;
+    height: 85vh;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    border-radius: 3%;
+    padding: 1%;
+    box-sizing: border-box;
+}
+
+section {
+    margin: 1%;
+    display: flex;
+    gap: 1vh;
+    height: 5vh;
+    width: 500vh;
+}
+
+.circle_1 {
+    width: 3.2vh;
+    height: 3.2vh;
+    background-color: #514895;
+    border-radius: 50%;
+}
+
+.circle_2 {
+    width: 3.2vh;
+    height: 3.2vh;
+    background-color: #000000;
+    border-radius: 50%;
+}
+
+.circle_3 {
+    width: 3.2vh;
+    height: 3.2vh;
+    background-color: #ffffff;
+    border-radius: 50%;
+}
+
+.conteiner_flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1vh;
+    height: 92%;
+    width: 100%;
+    align-content: baseline;
+    justify-content: baseline;
+
+}
+
+.column {
+    display: flex;
+    flex-flow: column wrap;
+    gap: 1vh;
+    height: 65%;
+    justify-content: center;
+    align-content: baseline;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 1vh;
+
+}
+
+.box {
+    background-color: #c6e000;
+    height: 15vh;
+    width: 10vh;
+    border-radius: 1vh;
+}
+
+#One {
+    flex-grow: 1;
+    flex-basis: 50%;
+}
+
+#Two {
+    flex-grow: 1;
+    flex-basis: 20%;
+}
+
+#Three {
+    flex-grow: 1;
+    flex-basis: 80%;
+    width: 40vh;
+}
+
+#Four {
+    flex-grow: 1;
+    flex-basis: 45%;
+    width: 45vh;
+
+}
+
+#Five {
+    flex-grow: 1;
+    flex-basis: 45%;
+    width: 45vh;
+}
+
+#Six {
+    flex-grow: 1;
+    height: 9.5vh;
+    background-color: #70e7a1;
+}
+
+#Seven {
+    flex-grow: 2;
+    height: 9.5vh;
+    background-color: #70e7a1;
+}
+
+#Eight {
+    height: 9.5vh;
+    flex-grow: 1;
+    background-color: #70e7a1;
+}
+
+ h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #37474f;
+   display: flex;
+   margin: 0%;
+   justify-content: center;
+   align-items: center;
+    height: 100%;
+    width: 100%;
+}

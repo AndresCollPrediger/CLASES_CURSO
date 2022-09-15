@@ -1,0 +1,134 @@
+ html,
+ body {
+     margin: 0%;
+     padding: 0%;
+     height: 100%;
+ }
+
+
+ .box_1 {
+     background-color: #dbffdbc3;
+     border: 2px #009a00b8 dashed;
+     width: 47%;
+     height: 15%;
+     position: relative;
+     top: 10%;
+     left: 25%;
+     z-index: 5;
+     padding: 15px;
+     box-sizing: border-box;
+ }
+
+ .box_2 {
+     background-color: #dbffdb;
+     border: 2px #009a00 dashed;
+     width: 47%;
+     height: 15%;
+     position: relative;
+     top: 50%;
+     left: 25%;
+     z-index: 2;
+     padding: 15px;
+     box-sizing: border-box;
+ }
+
+ .box_3 {
+
+     background-color: #ffdddd;
+     border: 2px #960000 dashed;
+     width: 70%;
+     height: 435%;
+     position: absolute;
+     bottom: 20%;
+     left: 32%;
+     z-index: 4;
+ }
+
+ .box_4 {
+     background-color: #fff5d1b0;
+     border: 2px #dcad059b dashed;
+     width: 88%;
+     height: 27%;
+     position: relative;
+     top: 12%;
+     margin: auto;
+     z-index: 6;
+ }
+
+ .box_5 {
+     background-color: #fff5d1;
+     border: 2px #dcae05 dashed;
+     width: 88%;
+     height: 22%;
+     position: relative;
+     top: 45%;
+     margin: auto;
+     z-index: 1;
+
+ }
+
+ .box_6 {
+     background-color: #e7e4f1aa;
+     border: 2px #2d0e9593 dashed;
+     width: 45%;
+     height: 82%;
+     position: absolute;
+     top: 6%;
+     left: 45%;
+     z-index: 3;
+ }
+
+ h4 {
+     display: inline-flex;
+     margin-bottom: 3px;
+     margin-top: 5px;
+     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+ }
+
+ p {
+     display: inline-flex;
+     margin: 3px auto;
+     font-family: monospace;
+     font-size: larger;
+     opacity: 55%;
+
+ }
+
+ .text_0 {
+    position: relative;
+ }
+
+ .text_1 {
+     position: relative;
+
+ }
+
+ .text_2 {
+ 
+     position: absolute;
+     top: 48%;
+     left: 5%;
+ }
+
+ .text_3 {
+  
+     position: relative;
+     top: 25%;
+     left: 3%;
+ }
+
+ .text_4 {
+  
+     position: relative;
+     left: 3%;
+     top: 10%;
+ }
+
+ .text_5 {
+    
+     position: absolute;
+     box-sizing: border-box;
+     text-align: center;
+     top: 50%;
+     left: 15%;
+ }

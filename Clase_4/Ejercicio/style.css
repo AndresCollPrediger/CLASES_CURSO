@@ -1,0 +1,164 @@
+
+.titulo {
+    margin-top: -5px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 60px;
+    font-size: larger;
+    font-weight: bold;
+    color: rgba(14, 194, 1, 0.727);
+
+}
+
+.caja_uno {
+    width: 15px;
+    height: 15px;
+    background-color: rgba(74, 243, 1, 0.315);
+    margin-top: -432px;
+    margin-left: 55px;
+}
+
+.caja_dos {
+    width: 10px;
+    height: 10px;
+    background-color: rgba(0, 255, 128, 0.396);
+    margin-top: -20px;
+    margin-left: 50px;
+}
+
+.caja_tres {
+    width: 13px;
+    height: 13px;
+    background-color: rgba(181, 241, 102, 0.534);
+    margin-top: 8px;
+    margin-left: 252px;
+}
+
+.caja_cuatro {
+    width: 10px;
+    height: 10px;
+    background-color: rgba(0, 255, 140, 0.633);
+    margin-top: -6px;
+    margin-left: 247px;
+}
+
+.caja_cinco {
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgb(14, 194, 1);
+    width: 348px;
+    height: 400px;
+    padding: 29px 0px 30px 30px;
+    margin: auto;
+    margin-top: -58px;
+    margin-left: -32px;
+    background-color: rgba(255, 255, 255, 0);
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    background-color: rgb(219, 218, 216);
+
+}
+
+.input {
+    width: 318px;
+    height: 30px;
+    font-weight: 600;
+    font-style: italic;
+    color: rgb(3, 114, 1);
+    font-size: small;
+    border-style: groove;
+    border-color: rgba(123, 147, 114, 0.651);
+    font-size: 12px;
+}
+::placeholder{
+    font-weight: 400;
+    color: rgba(4, 4, 4, 0.389);         
+}
+
+form {
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgb(0, 0, 0);
+    width: 350px;
+    height: 400px;
+    padding: 30px 0px 30px 30px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: rgb(255, 255, 255);
+}
+
+
+p {
+    color: rgb(144, 144, 144);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+.caja {
+    width: 320px;
+    height: 44px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: small;
+    border-style: groove;
+    border-width: 2px;
+    border-color: rgba(123, 147, 114, 0.651);
+    font-size: 12px;
+    color: rgb(3, 114, 1);
+    max-width: 320px;
+    max-height: 44px ;
+    min-width: 320px;
+    min-height: 44px; 
+    
+}
+
+.enviar {
+    margin-bottom: 10px;
+    margin-left: -20px;
+    background-color: rgb(14, 194, 1);
+    border-style: none;
+    border-radius: 5px;
+    width: 290px;
+    height: 50px;
+    color: aliceblue;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+input[type=submit]:hover {
+    background-color: rgba(79, 236, 6, 0.785);
+    color: black;
+}
+
+.Text_1 {
+    margin-top: 1px;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-variant: small-caps;
+}
+
+.Text_2 {
+    font-size: large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;  
+}
+
+.cajita {
+    padding: 15px;
+    background-color: aliceblue;
+    text-align: center;
+    
+}
+
+.IMG {
+    width: 100px;
+    padding-top: 10px ;
+    box-sizing: content-box;
+}

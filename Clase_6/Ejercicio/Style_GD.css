@@ -1,0 +1,154 @@
+body,
+html {
+    margin: 0%;
+    padding: 0%;
+    width: auto;
+    height: 100%;
+    border: 5px black solid;
+    background-color: rgba(236, 231, 232, 255);
+
+}
+
+main {
+    display: grid;
+    background-color: #37474f;
+    width: 50%;
+    height: 85%;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    border-radius: 3%;
+    padding: 1%;
+    box-sizing: border-box;
+}
+
+section {
+    margin: 1%;
+    display: grid;
+    grid-template-columns: 5vh 5vh 5vh;
+    grid-template-rows: 100%;
+    height: 5%;
+}
+
+
+.circle_1 {
+    width: 3.2vh;
+    height: 3.2vh;
+    background-color: #514895;
+    border-radius: 50%;
+}
+
+.circle_2 {
+    width: 3.2vh;
+    height: 3.2vh;
+    background-color: #000000;
+    border-radius: 50%;
+}
+
+.circle_3 {
+    width: 3.2vh;
+    height: 3.2vh;
+    background-color: #ffffff;
+    border-radius: 50%;
+}
+
+.conteiner_grid {
+    grid-gap: 1%;
+    display: grid;
+    height: 100%;
+    width: 100%;
+    padding: 1.5%;
+    width: 100%;
+    height: 90%;
+    position: absolute;
+    top: 10%;
+    left: 0%;
+    box-sizing: border-box;
+}
+
+.box {
+    background-color: #c6e000;
+    border-radius: 1vh;
+}
+
+.Element_1 {
+    display: grid;
+    grid-template-columns: 1.6fr 1fr;
+    grid-template-rows: 100%;
+    height: 42%;
+    grid-gap: 1.5%;
+    margin-bottom: 2%;
+
+}
+
+.Element_2 {
+    margin-top: 0%;
+    grid-gap: 1.5%;
+    position: relative;
+    height: 118%;
+    display: grid;
+    grid-template-areas:
+        "Three Three Four Four Four"
+        "Three Three Five Five Five";
+
+    bottom: 50%;
+}
+
+.Element_3{
+    position:absolute;
+    display: grid;
+    height: 18%;
+    margin-bottom:0%;
+    box-sizing:border-box;
+    padding: 1.5%;
+    grid-gap: 1.5%;
+    width: 100%;
+    bottom: 0%;
+
+    grid-template-columns: 1fr 1.5fr 1fr;
+
+}
+
+
+
+#Three {
+    grid-area: Three;
+}
+
+#Four {
+    grid-area: Four;
+    margin-bottom: 1%;
+}
+
+#Five { 
+    grid-area: Five;
+}
+
+#Six {
+
+    background-color: #70e7a1;
+}
+
+#Seven {
+
+    background-color: #70e7a1;
+
+}
+
+#Eight {
+
+    background-color: #70e7a1;
+
+}
+
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #37474f;
+    display: flex;
+    margin: 0%;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
