@@ -1,0 +1,61 @@
+body,
+html {
+    height: 100%;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    overflow: hidden;
+    background-image: radial-gradient(circle at -0.49% 7.63%, #ffe28b 0, #ffe87c 5%, #ffed6d 10%, #fff15e 15%, #fff551 20%, #fff745 25%, #fff93b 30%, #e6f934 35%, #c7f832 40%, #a4f635 45%, #79f23c 50%, #39ee47 55%, #00ea56 60%, #00e567 65%, #00e17b 70%, #00de8f 75%, #00daa6 80%, #00d7bd 85%, #00d5d5 90%, #00d3ee 95%, #00d1ff 100%);
+    animation: fondo 15s infinite ease alternate;
+}
+
+@keyframes fondo {
+    to {
+        background-position: 0% 100px;
+    }
+
+    from {
+        background-position: 800px 800px;
+    }
+
+}
+
+.contenedor {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+}
+
+input {
+    background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
+    text-align: center;
+    border: black 2px solid;
+    border-radius: 10px;
+    width: 250px;
+    font-size: xx-large;
+    font-family: fantasy;
+}
+
+.sombra{
+    font-size: x-large;
+    color: white;
+    position: absolute;
+    top: 40%;
+    z-index: -1;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.title {
+    background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
+    font-size: x-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip:text;
+}
